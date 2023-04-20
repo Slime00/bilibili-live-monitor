@@ -1,7 +1,10 @@
 {
-  "name": "koishi-plugin-bilibili-live-monitor2",
-  "description": "",
-  "version": "0.0.1",
+  "name": "koishi-plugin-bilibili-live-monitor",
+  "description": "koishi插件:哔哩哔哩主播直播开播提醒",
+  "version": "1.2.6",
+  "contributors": [
+    "Slime <934350309@qq.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -17,5 +20,19 @@
   ],
   "peerDependencies": {
     "koishi": "^4.11.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slime00/bilibili-live-monitor.git"
+  },
+  "koishi": {
+    "description": {                        
+      "en": "bilibili live start announcement",
+      "zh": "哔哩哔哩主播直播开播提醒"
+    },
+    "service": {       
+    },
+    "locales": ["en", "zh"]
   }
+  
 }
